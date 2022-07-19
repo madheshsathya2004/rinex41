@@ -7,3 +7,4 @@ ip = st.text_input('Enter the sepal_length,sepal_width,petal_length,petal_widthi
 op = model.predict([ip])
 if st.button('Predict'):
   st.title(op[0])
+                  
